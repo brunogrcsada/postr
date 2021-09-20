@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Postr</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='icon' type='image/x-icon' href='favicon.ico' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css"
+        integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css"
+        integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="header">
+        <h1 onclick="location.href='/postr'" class="header__title">Postr&nbsp;
+            <i class="fas fa-film"></i>
+        </h1>
+        <p class="slogan" id="slogan">posters made simple.</p>
+        <p class="header__description">Search for a movie poster!</p>
+
+        <form id="form">
+            <input type="text" id="movie"><br><br>
+            <button id="submit-button" type="submit" class="form__submit-button">Find!</button>
+        </form>
+    </header>
+
+    <section class="section__results" id="section-results">
+
+    </section>
+    <p class="mission" id="mission">Postr privacy matters.</p>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
